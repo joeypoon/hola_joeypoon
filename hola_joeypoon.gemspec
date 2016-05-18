@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = "A simple hello world gem"
   s.authors     = ["Joey F. Poon"]
   s.email       = 'joey@joeypoon.com'
-  s.files       = ["lib/hola_joeypoon.rb"]
+  s.files       = `git ls-files`.split("\n")
   s.homepage    =
     'http://rubygems.org/gems/hola_joeypoon'
   s.license       = 'MIT'
