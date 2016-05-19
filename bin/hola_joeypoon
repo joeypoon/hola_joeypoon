@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'hola_joeypoon'
+puts HolaJoeypoon.hi(ARGV[0])
